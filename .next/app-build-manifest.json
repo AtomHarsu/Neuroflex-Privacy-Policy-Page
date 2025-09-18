@@ -8,6 +8,7 @@
     "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/page.css",
       "static/chunks/app/page.js"
     ],
     "/privacy-policy/page": [
@@ -15,6 +16,29 @@
       "static/chunks/main-app.js",
       "static/css/app/privacy-policy/page.css",
       "static/chunks/app/privacy-policy/page.js"
+    ],
+    "/brain-training/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/brain-training/page.css",
+      "static/chunks/app/brain-training/page.js"
+    ],
+    "/download/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/download/page.css",
+      "static/chunks/app/download/page.js"
+    ],
+    "/help/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/help/page.css",
+      "static/chunks/app/help/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }

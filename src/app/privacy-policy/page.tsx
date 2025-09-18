@@ -1,15 +1,24 @@
 import './privacy-policy.css';
+import Link from 'next/link';
 
 export default function PrivacyPolicy() {
   return (
     <div className="privacy-page">
-      <header>
-        <div className="container">
+      <header className="header">
+        <nav className="nav">
           <div className="logo">
-            <h1>🧠 NeuroFlex</h1>
-            <p>Fun Gaming Experience</p>
+            <Link href="/">
+              <h1>🧠 NeuroFlex</h1>
+            </Link>
           </div>
-        </div>
+          <ul className="nav-links">
+            <li><Link href="/">🏠 Home</Link></li>
+            <li><Link href="/brain-training">🧠 Brain Training</Link></li>
+            <li><Link href="/help">❓ Help</Link></li>
+            <li><Link href="/download">📱 Download</Link></li>
+            <li><Link href="/privacy-policy">🔒 Privacy</Link></li>
+          </ul>
+        </nav>
       </header>
 
       <main className="container">
@@ -175,10 +184,8 @@ export default function PrivacyPolicy() {
         </div>
       </main>
 
-      <footer>
-        <div className="container">
-          <p>&copy; 2025 NeuroFlex. All rights reserved.</p>
-        </div>
+      <footer className="footer">
+        <p>&copy; 2025 NeuroFlex. All rights reserved.</p>
       </footer>
     </div>
   );
